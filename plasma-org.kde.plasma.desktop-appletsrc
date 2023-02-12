@@ -6,20 +6,15 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1714x924=
-ItemGeometries-1718x928=
+ItemGeometries-1280x800=
 ItemGeometriesHorizontal=
-activityId=f0a49450-9666-4425-ab1f-4030bfe9960d
+activityId=3d91819a-f371-4e9d-bbd0-140375f5770b
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][1][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=458
 
 [Containments][2]
 activityId=
@@ -34,10 +29,6 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][2][Applets][21]
-immutability=1
-plugin=org.kde.plasma.showdesktop
-
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
@@ -45,11 +36,11 @@ plugin=org.kde.plasma.kickoff
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
 popupHeight=514
-popupWidth=655
+popupWidth=651
 
 [Containments][2][Applets][3][Configuration][General]
+favorites=preferred://browser,org.kde.dolphin.desktop,org.kde.elisa.desktop,org.kde.konsole.desktop,org.manjaro.pamac.manager.desktop,systemsettings.desktop
 favoritesPortedToKAstats=true
-icon=start-here
 
 [Containments][2][Applets][3][Configuration][Shortcuts]
 global=Alt+F1
@@ -59,39 +50,35 @@ global=Alt+F1
 
 [Containments][2][Applets][4]
 immutability=1
-plugin=org.kde.plasma.pager
+plugin=org.kde.plasma.icontasks
+
+[Containments][2][Applets][4][Configuration][General]
+launchers=preferred://browser,applications:org.kde.konsole.desktop
 
 [Containments][2][Applets][5]
 immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][2][Applets][5][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][5][Configuration][General]
-launchers=preferred://browser,applications:org.kde.konsole.desktop
+plugin=org.kde.plasma.marginsseparator
 
 [Containments][2][Applets][6]
 immutability=1
-plugin=org.kde.plasma.marginsseparator
+plugin=org.kde.plasma.showdesktop
 
 [Containments][2][Applets][7]
 immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][2][Applets][8]
+immutability=1
 plugin=org.kde.plasma.systemtray
 
-[Containments][2][Applets][7][Configuration]
+[Containments][2][Applets][8][Configuration]
 PreloadWeight=65
-SystrayContainmentId=8
-
-[Containments][2][ConfigDialog]
-DialogHeight=84
-DialogWidth=1718
+SystrayContainmentId=9
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;7;20;21
+AppletOrder=3;4;5;6;7;8;20
 
-[Containments][8]
+[Containments][9]
 activityId=
 formfactor=2
 immutability=1
@@ -102,65 +89,61 @@ popupHeight=432
 popupWidth=432
 wallpaperplugin=org.kde.image
 
-[Containments][8][Applets][10]
-immutability=1
-plugin=org.kde.plasma.clipboard
-
-[Containments][8][Applets][11]
-immutability=1
-plugin=org.kde.plasma.devicenotifier
-
-[Containments][8][Applets][12]
-immutability=1
-plugin=org.kde.plasma.keyboardindicator
-
-[Containments][8][Applets][13]
-immutability=1
-plugin=org.kde.plasma.keyboardlayout
-
-[Containments][8][Applets][14]
-immutability=1
-plugin=org.kde.plasma.manage-inputmethod
-
-[Containments][8][Applets][15]
-immutability=1
-plugin=org.kde.plasma.nightcolorcontrol
-
-[Containments][8][Applets][16]
+[Containments][9][Applets][10]
 immutability=1
 plugin=org.kde.plasma.notifications
 
-[Containments][8][Applets][17]
+[Containments][9][Applets][11]
 immutability=1
-plugin=org.kde.plasma.printmanager
+plugin=org.kde.plasma.devicenotifier
 
-[Containments][8][Applets][18]
+[Containments][9][Applets][12]
 immutability=1
-plugin=org.kde.plasma.vault
+plugin=org.kde.plasma.manage-inputmethod
 
-[Containments][8][Applets][19]
+[Containments][9][Applets][13]
+immutability=1
+plugin=org.kde.plasma.clipboard
+
+[Containments][9][Applets][14]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][9][Applets][15]
 immutability=1
 plugin=org.kde.plasma.volume
 
-[Containments][8][Applets][22]
+[Containments][9][Applets][16]
 immutability=1
-plugin=org.kde.plasma.battery
+plugin=org.kde.plasma.keyboardindicator
 
-[Containments][8][Applets][23]
-immutability=1
-plugin=org.kde.plasma.networkmanagement
-
-[Containments][8][Applets][9]
+[Containments][9][Applets][17]
 immutability=1
 plugin=org.kde.kdeconnect
 
-[Containments][8][ConfigDialog]
+[Containments][9][Applets][18]
+immutability=1
+plugin=org.kde.plasma.printmanager
+
+[Containments][9][Applets][19]
+immutability=1
+plugin=org.kde.plasma.keyboardlayout
+
+[Containments][9][Applets][21]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][9][Applets][22]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][9][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][8][General]
-extraItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
-knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume
+[Containments][9][General]
+extraItems=org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.nightcolorcontrol,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.printmanager,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout
+knownItems=org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.nightcolorcontrol,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.printmanager,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardlayout
 
 [ScreenMapping]
 itemsOnDisabledScreens=

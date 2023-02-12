@@ -35,7 +35,7 @@ mv .p10k.zsh ~
 #other
 lookandfeeltool -a org.kde.breezedark.desktop
 kwriteconfig5 --file ~/.config/kcminputrc --group Mouse --key cursorTheme Adwaita
-
+mv dolphinrc ~/.config/dolphinrc
 
 sudo chsh -s $(which zsh)
 chsh -s $(which zsh)

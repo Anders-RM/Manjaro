@@ -2,4 +2,4 @@
 DefaultProfile=Anders.profile
 
 [Dialogs]
-FirstRun=false
+FirstRun=true
