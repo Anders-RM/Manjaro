@@ -1,12 +1,11 @@
 #! /bin/zsh
-pacman -Syu --noconfirm
-pacman -S git --noconfirm
-pacman -S yakuake --noconfirm
-pacman -S fzf --noconfirm
-pacman -S yay --noconfirm
-yay -s visual-studio-code-bin --noconfirm
-yay -S microsoft-edge-stable
-
+sudo pacman -Syu --noconfirm
+sudo pacman -S git --noconfirm
+sudo pacman -S yakuake --noconfirm
+sudo pacman -S fzf --noconfirm
+sudo pacman -S yay --noconfirm
+sudo yay -s visual-studio-code-bin --noconfirm
+sudo yay -S microsoft-edge-stable
 
 #git config
 ssh-keygen -q -t rsa -N '@Ndersraeder' -f ~/.ssh/id_rsa -C "andersrm1808@gmial.com" <<<y >/dev/null 2>&1
