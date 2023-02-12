@@ -1,9 +1,10 @@
 #! /bin/zsh
 sudo pacman -Syu --noconfirm
-sudo pacman -S git --noconfirm
-sudo pacman -S yakuake --noconfirm
-sudo pacman -S fzf --noconfirm
-sudo pacman -S yay --noconfirm
+sudo pacman -Sy git --noconfirm
+sudo pacman -Sy yakuake --noconfirm
+sudo pacman -Sy fzf --noconfirm
+sudo pacman -Sy yay --noconfirm
+sudo pacman -Sy python-pip --noconfirm
 yay -sa visual-studio-code-bin --noconfirm
 yay -Sa microsoft-edge-stable
 
@@ -14,6 +15,7 @@ git config --global user.name "anddersrm1808"
 
 #ohmyzsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+
 
 #powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
