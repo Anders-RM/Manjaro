@@ -4,8 +4,8 @@ sudo pacman -S git --noconfirm
 sudo pacman -S yakuake --noconfirm
 sudo pacman -S fzf --noconfirm
 sudo pacman -S yay --noconfirm
-sudo yay -s visual-studio-code-bin --noconfirm
-sudo yay -S microsoft-edge-stable
+sudo yay -sa visual-studio-code-bin --noconfirm
+sudo yay -Sa microsoft-edge-stable
 
 #git config
 ssh-keygen -q -t rsa -N '@Ndersraeder' -f ~/.ssh/id_rsa -C "andersrm1808@gmial.com" <<<y >/dev/null 2>&1
@@ -13,7 +13,6 @@ git config --global user.email "andersrm1808@gmial.com"
 git config --global user.name "anddersrm1808"
 
 #ohmyzsh
-sudo dnf install zsh -y
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 #powerlevel10k
