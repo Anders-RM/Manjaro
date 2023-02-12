@@ -35,15 +35,7 @@ mv .p10k.zsh ~
 #other
 lookandfeeltool -a org.kde.breezedark.desktop
 kwriteconfig5 --file ~/.config/kcminputrc --group Mouse --key cursorTheme Adwaita
-mkdir -p ~/.config/autostart
-mv /usr/share/applications/org.kde.yakuake.desktop ~/.config/autostart/org.kde.yakuake.desktop
-mv Anders.profile ~/.local/share/konsole/Anders.profile
-mv konsolerc ~/.config/konsolerc
-mv yakuakerc ~/.config/yakuakerc
-mkdir -p ~/.local/share/kservices5/ServiceMenus
-mv open_as_root.desktop ~/.local/share/kservices5/ServiceMenus
-mv dolphinrc ~/.config/dolphinrc
-sudo mv plasma-org.kde.plasma.desktop-appletsrc ~/.config/plasma-org.kde.plasma.desktop-appletsrc
+
 
 sudo chsh -s $(which zsh)
 chsh -s $(which zsh)
