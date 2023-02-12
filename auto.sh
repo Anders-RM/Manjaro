@@ -4,8 +4,8 @@ sudo pacman -S git --noconfirm
 sudo pacman -S yakuake --noconfirm
 sudo pacman -S fzf --noconfirm
 sudo pacman -S yay --noconfirm
-sudo yay -sa visual-studio-code-bin --noconfirm
-sudo yay -Sa microsoft-edge-stable
+yay -sa visual-studio-code-bin --noconfirm
+yay -Sa microsoft-edge-stable
 
 #git config
 ssh-keygen -q -t rsa -N '@Ndersraeder' -f ~/.ssh/id_rsa -C "andersrm1808@gmial.com" <<<y >/dev/null 2>&1
@@ -36,6 +36,13 @@ mv .p10k.zsh ~
 lookandfeeltool -a org.kde.breezedark.desktop
 kwriteconfig5 --file ~/.config/kcminputrc --group Mouse --key cursorTheme Adwaita
 mv dolphinrc ~/.config/dolphinrc
+mv plasma-org.kde.plasma.desktop-appletsrc ~/.config/plasma-org.kde.plasma.desktop-appletsrc
+mv yakuakerc ~/.config/yakuakerc
+mv konsolerc ~/.config/konsolerc
+mkdir -p ~/.local/share/kservices5/ServiceMenus
+mv open_as_root.desktop ~/.local/share/kservices5/ServiceMenus
+mv Anders.profile ~/.local/share/konsole/Anders.profile
+cp /usr/share/applications/org.kde.yakuake.desktop ~/.config/autostart/org.kde.yakuake.desktop
 
 sudo chsh -s $(which zsh)
 chsh -s $(which zsh)
