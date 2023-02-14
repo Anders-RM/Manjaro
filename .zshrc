@@ -87,6 +87,7 @@ colored-man-pages
 command-not-found
 extract
 gh
+archlinux
 )
 
 source $ZSH/oh-my-zsh.sh
