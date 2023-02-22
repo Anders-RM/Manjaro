@@ -3,10 +3,9 @@ sudo pacman -Syu --noconfirm
 sudo pacman -Sy git --noconfirm
 sudo pacman -Sy yakuake --noconfirm
 sudo pacman -Sy fzf --noconfirm
-sudo pacman -Sy yay --noconfirm
 sudo pacman -Sy python-pip --noconfirm
-yay -sa visual-studio-code-bin --noconfirm
-yay -Sa microsoft-edge-stable
+sudo pamac install visual-studio-code-bin --noconfirm
+sudo pamac install microsoft-edge-stable --no-confirm
 
 #git config
 ssh-keygen -q -t rsa -N '@Ndersraeder' -f ~/.ssh/id_rsa -C "andersrm1808@gmial.com" <<<y >/dev/null 2>&1
@@ -33,6 +32,8 @@ sudo mv MesloLGS\ NF\ Italic.ttf /usr/share/fonts/
 
 mv .zshrc ~
 mv .p10k.zsh ~
+mv shutdown.sh ~
+mv upgrade.sh ~
 
 #other
 lookandfeeltool -a org.kde.breezedark.desktop
