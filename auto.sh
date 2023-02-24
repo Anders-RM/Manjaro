@@ -30,12 +30,11 @@ sudo mv MesloLGS\ NF\ Bold.ttf /usr/share/fonts/
 sudo mv MesloLGS\ NF\ Regular.ttf /usr/share/fonts/
 sudo mv MesloLGS\ NF\ Italic.ttf /usr/share/fonts/
 
-sudo mkdir -p ~/scripts/
 
 mv .zshrc ~
 mv .p10k.zsh ~
-mv up-shutdown ~/scripts/
-mv upgrade-all ~/scripts/
+mv up-shutdown /usr/bin/
+mv upgrade-all /usr/bin/
 
 #other
 lookandfeeltool -a org.kde.breezedark.desktop
