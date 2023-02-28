@@ -5,7 +5,7 @@ sudo pacman -Sy yakuake --noconfirm
 sudo pacman -Sy fzf --noconfirm
 sudo pacman -Sy python-pip --noconfirm
 sudo pamac install visual-studio-code-bin --noconfirm
-sudo pamac install microsoft-edge-stable --no-confirm
+
 
 #git config
 ssh-keygen -q -t rsa -N '@Ndersraeder' -f ~/.ssh/id_rsa -C "andersrm1808@gmial.com" <<<y >/dev/null 2>&1
